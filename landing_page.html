@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+      .carousel-item img{
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 500px;
+      }
+
+      .container_3{
+           width: 100%;
+        
+      }
+    
+      .card{
+        margin: 19px;
+    
+      }
+ 
+      .card img{
+        margin-top: 0.5rem;
+        padding: 7px;  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+      
+      }
+
+      .text_heading {
+       text-align: center;
+       margin-top: 4rem;
+       
+      }
+     
+      .text_anther {
+        margin-top: 5rem;
+        text-align: center;
+        text-transform: capitalize;
+      }
+     .image{
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+
+     }
+
+     .image_website{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 18rem;
+        height: 200px;
+        margin: 7px;
+        padding: 10px;
+      
+     }
+     .website_heading{
+      text-decoration: none;
+      
+
+     }
+
+     .list_footer h6 a{
+       text-decoration: none;
+     }
+
+    </style>
+
+</head>
+<body>
+
+
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Akbar Ali</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicse</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Brand
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Web development</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Wordpress</a></li>
+                  <li><a class="dropdown-item" href="#">Search engine optimization</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                  <li><a class="dropdown-item" href="#">Data Structure</a></li>
+                  <li><a class="dropdown-item" href="#">python</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+        <!-- carousel section -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_1280.jpg" class="d-block w-100" alt="1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Group Member </h5>
+                <p>Meeting about the project handle how to work in the project .</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/id/530685719/photo/group-of-business-people-standing-in-hall-smiling-and-talking-together.webp?b=1&s=612x612&w=0&k=20&c=ChEfDyylUqUArtvj55VDuc8G6q3ru8TKum6dAJe70a0=" class="d-block w-100" alt="2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Every team work in the ground project part  </h5>
+                <p>How to complete the project part in the project internal time </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.pixabay.com/photo/2017/04/02/19/01/work-2196609_1280.jpg" class="d-block w-100" alt="3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Everperson respontablity </h5>
+                <p>every man are declerat project report and submit the project manager  </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/id/1390285717/photo/asian-programmer-writing-code-on-a-laptop.webp?b=1&s=612x612&w=0&k=20&c=YYztfxEH7Y300xikpvOMVJyVpDUDHb86JaonMPh9gfo=" class="d-block w-100" alt="4">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Everperson respontablity </h5>
+                <p>start the project the work if the project work time is problem then decicuss the group leader  </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.pixabay.com/photo/2020/07/11/23/36/meeting-5395615_1280.jpg" class="d-block w-100" alt="5">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Group leader project is complete  </h5>
+                <p>Group leader is project is complete then try the every angle of the project desgin and time complicity how many time is run  </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- blog of post  -->
+
+        <div class="card-group">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_1280.jpg" class="card-img-top" alt="1">
+            <div class="card-body">
+              <h5 class="card-title">Web Design & Development Services</h5>
+              <p class="card-text">Engaging and efficient web design  and development<br> solutions. Transcending convention through  <br>innovative web solutions.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href="https://www.unitedsol.net/web-design-and-development/">Read More </a>
+              </div>
+            </div>
+          <div class="card">
+            <img src="https://media.istockphoto.com/id/1307162575/photo/wireless-wifi-for-remote-work-in-airport-lounge-bar-hotel-lobby-or-cafe-phone-and-laptop.webp?b=1&s=612x612&w=0&k=20&c=SDVYPo8whC7ZwKRb1i5xGbLylky7Nv7W2WyCyOQSbxg=" class="card-img-top" alt="2">
+            <div class="card-body">
+              <h5 class="card-title">Magento Development Services</h5>
+              <p class="card-text">Be it complex Magento solutions, or robust<br>  eCommerce stores, we have the expertise<br>  and statisticsbr  that speak for themselves.</p>
+              <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+              <a href="https://www.unitedsol.net/magento-solutions/">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/12/09/09/08/seo-3007488_1280.jpg" class="card-img-top" alt="3">
+            <div class="card-body">
+              <h5 class="card-title">Search Engine Optimization (SEO)</h5>
+              <p class="card-text">Result-driven SEO services that resonate  with<br> your unique business needs. Grow your<br> business  while beating all the competition</p>
+              <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+              <a href="https://www.unitedsol.net/search-engine-optimization/">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      <!-- text area  and website desgin section the show to web desgin agancy -->
+      <div class="text_heading">
+        <h1> <b>Effortlessly boost your brand with Pro Website Design.</b></h1>
+        <p>Your very own website with all the right tools and expert support behind  you is a beautiful thing. <br>
+          We make sure your custom website reflects your brand and sets you up for online success.</p>
+      </div>
+       
+      <div class="main_container-fluid">
+        <div class="row">
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/839113388/photo/domain-concept.webp?b=1&s=612x612&w=0&k=20&c=aACM3EdzYIwMQjNEVLW6bu9-AvDuZT317H45z-_3Vvk=" alt="">
+            <h5 style="text-align: center;"><a href="" class="website_heading" >Domain & Hosting</a></h5>
+          </div>
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.webp?b=1&s=612x612&w=0&k=20&c=5f5qgmdm1_isNCz_ISP61-2QPfEtRl0Fz1ZVplTD7ek=" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/404-page/">Web development</a></h5>
+          </div>
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.webp?b=1&s=612x612&w=0&k=20&c=LKXpEzKWzu5Kbl4xL_O1CCtwIwItMTKzNOlhuy7kAJM=" alt="">
+            <h5 style="text-align: center;" ><a class="website_heading" href="https://www.thexpertz.com/content-writing/ ">Content Written</a></h5>
+          </div>
+
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1413735503/photo/social-media-social-media-marketing-thailand-social-media-engagement-post-structure.webp?b=1&s=612x612&w=0&k=20&c=8q0rzEYqriLd0yGsqYbRlpAdX0Vy7sLEbC4iB8P_MT4=" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/social-media-marketing/">Social Media</a></h5>
+          </div>
+
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1337612033/photo/seo-search-engine-optimization-concept-for-promoting-ranking-traffic-on-website-optimizing.webp?b=1&s=612x612&w=0&k=20&c=yW3-g_6uTR6SxdkKjJWqLvQqoxNadOOqNWW9nKlbaY0=" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/seo-services">SEO</a></h5>
+          </div>
+
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_1280.jpg" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/seo-services">Existing protal</a></h5>
+          </div>
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1067309384/photo/creative-checking-the-shot-on-the-monitor.webp?b=1&s=612x612&w=0&k=20&c=bhPCGAC8Y6aE12A_4eFVzxhcCn6ZLCAgbVfjTz1qDUI=" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/product-photography/">Product photography</a></h5>
+          </div>
+          <div class="col-sm-3 ">
+            <img class="image_website" src="https://media.istockphoto.com/id/1067309384/photo/creative-checking-the-shot-on-the-monitor.webp?b=1&s=612x612&w=0&k=20&c=bhPCGAC8Y6aE12A_4eFVzxhcCn6ZLCAgbVfjTz1qDUI=" alt="">
+            <h5 style="text-align: center;"><a class="website_heading" href="https://www.thexpertz.com/e-commerce-development-and-store-management-solution/">E-Commercs Soluction</a></h5>
+          </div>
+        </div>
+      </div>
+          
+      <!-- anther text area  -->
+      <div class="text_anther">
+        <h1> <b>Experience ongoing, on-demand support.</b></h1>
+        <p style="text-transform: lowercase;">With Pro Support, our experts become part of your team. Continue getting help from the very people who designed your site by adding <br>  Pro Support to your plan and letting us handle all future changes for you.</p>
+      </div>
+         
+     <div class="image"><img style="width: 100%; height: 450px;" src="https://media.istockphoto.com/id/1435049231/photo/a-glowing-light-bulb-with-an-icon-is-placed-on-the-book.webp?b=1&s=612x612&w=0&k=20&c=REdddeXCAq0qqApe45INQCiaTocLjKIaJoSjO-OO5i0=" alt="experience">
+    </div>
+
+  <!-- footer section will define the footer link  -->
+  <div class="footer mt-5  bg-secondry">
+   
+    <div class="row offset-1">
+      <div class="col">
+        <h3> Hosting</h3>
+        <div class="list_footer">
+         <h6><a href="">Web Hosting</a></h6>
+         <h6><a href="">Cloud Hosting</a></h6>
+         <h6><a href="">WordPress Hosting</a></h6>
+         <h6><a href="">Reseller Hosting</a></h6>
+         <h6><a href="">Website Builder</a></h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <h3> Domains</h3>
+        <div class="list_footer">
+        <h6><a href="">Transfer Domains</a></h6>
+        <h6><a href="">anage Domains</a></h6>
+      </div>
+      </div>
+      <div class="col">
+        <h3> Services</h3>
+        <div class="list_footer">
+        <h6><a href="">Web Design</a></6>
+        <h6><a href="">SEO</a></h6>
+        <h6><a href="">CodeGuard</a></h6> 
+      </div>
+      </div>
+
+      <div class="col">
+        <h3> Affiliates</h3>
+        <div class="list_footer">
+        <h6><a href="">Become An Affiliate</a></h6>
+        <h6><a href="">Affiliate Portal</a></h6>
+      </div>
+        <h3>Support</h3>
+        <div class="list_footer">
+        <h6><a href="">Customer Portal</a></h6>
+        <h6><a href="">Video Tutorials</a></h6>
+        <h6><a href="">Support Portal</a></h6>
+        <h6><a href="">Live Chat</a></h6>
+      </div>
+      </div>
+
+      <div class="col">
+        <h3> Company </h3>
+        <div class="list_footer">
+        <h6><a href="">About HostGator</a></h6>
+        <h6><a href="">Reviews</a></h6>
+      </div>
+        <h3>Company Blog</h3>
+        <div class="list_footer">
+        <h6><a href="">Contact Us</a></h6>
+        <h6><a href="">Careers</a></h6>
+        <h6><a href="">Do Not Sell My Personal</a></h6>
+        <h6><a href="">Information</a></h6>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  
+
+  <br><br><br>
+</body>
+</html>
